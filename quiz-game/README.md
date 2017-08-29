@@ -1,4 +1,4 @@
-# Quiz Game
+### Quiz Game
 
 - Create a quiz game with 8 or more questions
   - Generate an assortment of multiple choice and True/False answers
