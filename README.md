@@ -2,25 +2,37 @@
 A repo containing a range of mini Javascript projects
 
 ### Level 1
-
+- circle-tracing
+- click-counter
+- counter-transfer
+- phone system
+- list-transfer
+- timer
 
 ### Level 2
-
+- find-the-mole
+- deal-52
+- quiz-game
 
 ### Level 3
-
+- blackjack(OOP)
+- rock paper scissors (OOP)
+- choose-your-own-adventure(OOP)
+- rpg-character-creator
+- horse-races
 
 ### Level 4
-
+- game-of-war
 
 ### Level 5
-
+- mancala
+- tarot-card-reader
 
 ### Level 6
 
 
 ### Level 7
-
+- rock paper scissors (Tim Version)
 
 ### Level 8
 
@@ -31,17 +43,3 @@ A repo containing a range of mini Javascript projects
 ### Level 10
 
 
-Set up levels for these projects to fall under (1-10)
-Scope out each project with JSDOC for the functions(similar to Student Grade Table)
-Build it out yourself first
-Comment out each section
-Reorder the functionality per necessity
-Record a video
-
-Excel Sheet to check for cohort assignment
-
-Tarot Card Reader - Populist sample card / fortune
-
-Guided Version
-
-Mancala - Starts off as a text thing
