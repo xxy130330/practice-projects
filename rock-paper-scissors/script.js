@@ -1,14 +1,29 @@
-function RockPaperScissors() {
+/**
+ * @constructor RockPaperScissors
+ */
 
+function RockPaperScissors() {
+  /**
+   * Define properties
+   * choices - property that is an array of choices @type {Array}
+   * userChoice - property with our user choice @type {String}
+   * computerChoice - property with our computer choice @type {String}
+   */
   this.choices = ["rock", "paper", "scissors"];
   this.user = null;
   this.computer = null;
 
-
+  /**
+   * askUserChoice - function when called will log to our console to choose "rock, paper, or scissors"
+   */
   this.askUserChoice = function() {
     console.log("Make a choice, rock, paper or scissors?");
   };
 
+  /**
+   * submitUserChoice - function when called will verify the submitted choice is valid
+   * @return {String}
+   */
   this.submitUserChoice = function (choice) {
     if (this.choices.indexOf(choice) !== -1) {
       this.user = choice;
@@ -18,6 +33,10 @@ function RockPaperScissors() {
     }
   };
 
+  /**
+   * checkForWin - function to compare the random computer choice with the user submitted choice
+   * @return {String}
+   */
   this.checkForWin = function() {
     var user = this.user;
     var computer = this.computer;
@@ -53,6 +72,10 @@ function RockPaperScissors() {
     }
   };
 
+  /**
+   * getComputerChoice - randomly gets a number from 0-2 and will return a choice based on that index
+   * @return {String}
+   */
   this.getComputerChoice = function() {
     var random = Math.floor(Math.random() * 3);
     if (random === 0) {
@@ -64,11 +87,17 @@ function RockPaperScissors() {
     }
   };
 
+  /**
+   * init - assigns a value to our computer choice and logs out to the user to submit their choice
+   */
   this.init = function() {
     this.computer = this.getComputerChoice();
     this.askUserChoice();
   };
 
+  /**
+   * reset - reassigns a value to our computer choice, resets user choice and relog to the user to submit their choice
+   */
   this.reset = function() {
     this.computer = this.getComputerChoice();
     this.user = null;
@@ -78,4 +107,7 @@ function RockPaperScissors() {
   this.init();
 }
 
+/**
+ * Create a new game based off our constructor function
+ */
 var game = new RockPaperScissors();
