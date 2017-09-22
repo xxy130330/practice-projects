@@ -50,7 +50,7 @@
         - similar to init but will additionally reset our user choice
 
 ## Extra
-- Implement additional properties or methods to account for Best-of-Five
+- Implement additional properties or methods to account for Best-of-Five rounds
 - Implement clickable rock, paper, scissors DOM elements to submit the user choice
 
 
