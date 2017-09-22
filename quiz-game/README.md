@@ -6,3 +6,6 @@
 - The player will be pass if they score 75% of the questions or higher
   - If the player scores below 75% display a button
     to allow the player to restart and try again
+
+
+    Basic MVC Game
